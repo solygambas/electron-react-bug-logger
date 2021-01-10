@@ -1,0 +1,23 @@
+{
+  "name": "image-shrink",
+  "version": "1.0.0",
+  "description": "App to optimize images.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solygambas/electron-image-shrink.git"
+  },
+  "author": "solygambas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solygambas/electron-image-shrink/issues"
+  },
+  "homepage": "https://github.com/solygambas/electron-image-shrink#readme",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
