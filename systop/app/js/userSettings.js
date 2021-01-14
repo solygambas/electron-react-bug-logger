@@ -1,4 +1,5 @@
 const settingsForm = document.getElementById("settings-form");
+const nav = document.getElementById("nav");
 
 const showAlert = (message) => {
   const alert = document.getElementById("alert");
@@ -21,3 +22,5 @@ settingsForm.addEventListener("submit", (e) => {
   ipcRenderer.send("settings:set", { cpuOverload, alertFrequency });
   showAlert("Settings Saved");
 });
+
+ipcRenderer.on("nav:toggle", () => nav.classList.toggle("hide"));

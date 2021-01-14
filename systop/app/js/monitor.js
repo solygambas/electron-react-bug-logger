@@ -1,6 +1,6 @@
-const { ipcRenderer } = require("electron");
 const path = require("path");
 const osu = require("node-os-utils");
+const { ipcRenderer } = require("electron");
 const cpu = osu.cpu;
 const mem = osu.mem;
 const os = osu.os;
