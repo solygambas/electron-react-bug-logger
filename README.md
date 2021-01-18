@@ -1,9 +1,10 @@
-# BugLogger App and Electron projects
+# Bug Logger App and Electron projects
 
 This repo is made of 3 projects:
 
 1. [**Image Shrink**](#imageshrink): An image optimizer app to understand Electron basics.
 2. [**SysTop**](#systop): An app to monitor CPU usage.
+3. [**Bug Logger**](#buglogger): An app bug tracker for teams.
 
 ## <a name="imageshrink"></a>1) Image Shrink
 
@@ -47,5 +48,19 @@ An app to monitor CPU usage.
 - creating a tray icon and handling clicks.
 - extending MainWindow class.
 - packaging our app with electron-packager and testing it.
+
+## <a name="buglogger"></a>3) Bug Logger
+
+An app bug tracker for teams.
+
+[See bug-logger folder](https://github.com/solygambas/electron-react-bug-logger/tree/master/bug-logger)
+
+<p align="center">
+    <img src="bug-logger/screenshot.png">
+</p>
+
+### Features
+
+- ...
 
 Based on [Electron From Scratch: Build Desktop Apps With JavaScript](https://www.udemy.com/course/electron-from-scratch/) by Brad Traversy (2020).
