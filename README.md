@@ -4,7 +4,7 @@ This repo is made of 3 projects:
 
 1. [**Image Shrink**](#imageshrink): An image optimizer app to understand Electron basics.
 2. [**SysTop**](#systop): An app to monitor CPU usage.
-3. [**Bug Logger**](#buglogger): An app bug tracker for teams.
+3. [**Bug Logger**](#buglogger): An app bug tracker for teams using React with Electron.
 
 ## <a name="imageshrink"></a>1) Image Shrink
 
@@ -51,7 +51,7 @@ An app to monitor CPU usage.
 
 ## <a name="buglogger"></a>3) Bug Logger
 
-An app bug tracker for teams.
+An app bug tracker for teams using React with Electron.
 
 [See bug-logger folder](https://github.com/solygambas/electron-react-bug-logger/tree/master/bug-logger)
 

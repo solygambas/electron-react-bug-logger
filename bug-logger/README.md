@@ -1,6 +1,6 @@
 # Bug Logger
 
-An app bug tracker for teams.
+An app bug tracker for teams using React with Electron.
 
 <p align="center">
     <img src="screenshot.png">
