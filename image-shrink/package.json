@@ -14,14 +14,14 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solygambas/electron-image-shrink.git"
+    "url": "git+https://github.com/solygambas/electron-react-bug-logger.git"
   },
   "author": "solygambas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/solygambas/electron-image-shrink/issues"
+    "url": "https://github.com/solygambas/electron-react-bug-logger/issues"
   },
-  "homepage": "https://github.com/solygambas/electron-image-shrink#readme",
+  "homepage": "https://github.com/solygambas/electron-react-bug-logger#readme",
   "devDependencies": {
     "electron": "^11.1.1",
     "electron-packager": "^15.2.0",

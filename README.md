@@ -9,7 +9,7 @@ This repo is made of 3 projects:
 
 An image optimizer app to understand Electron basics.
 
-[See image-shrink folder](https://github.com/solygambas/electron-image-shrink/tree/master/image-shrink)
+[See image-shrink folder](https://github.com/solygambas/electron-react-bug-logger/tree/master/image-shrink)
 
 <p align="center">
     <img src="image-shrink/screenshot.png">
@@ -31,7 +31,7 @@ An image optimizer app to understand Electron basics.
 
 An app to monitor CPU usage.
 
-[See systop folder](https://github.com/solygambas/electron-image-shrink/tree/master/systop)
+[See systop folder](https://github.com/solygambas/electron-react-bug-logger/tree/master/systop)
 
 <p align="center">
     <img src="systop/screenshot.png">
