@@ -1,7 +1,9 @@
 const path = require("path");
 const url = require("url");
 const { app, BrowserWindow } = require("electron");
+const connectDB = require("./config/db");
 
+connectDB();
 let mainWindow;
 
 let isDev = false;
@@ -19,7 +21,7 @@ function createMainWindow() {
     height: 800,
     show: false,
     backgroundColor: "white",
-    icon: "./assets/icons/icon.png",
+    icon: "./assets/icon.png",
     webPreferences: {
       nodeIntegration: true,
     },

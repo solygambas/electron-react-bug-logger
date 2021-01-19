@@ -27,11 +27,12 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js --mode development",
     "build": "cross-env NODE_ENV=production webpack --config webpack.build.config.js --mode production",
     "package": "npm run build",
-    "postpackage": "electron-packager ./ --out=./release-builds --overwrite --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico"
+    "postpackage": "electron-packager ./ --out=./release-builds --overwrite --platform=win32 --arch=ia32 --icon=assets/icon.ico"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
     "moment": "^2.29.1",
+    "mongoose": "^5.11.12",
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^16.13.1",
