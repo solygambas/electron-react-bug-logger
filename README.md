@@ -4,7 +4,7 @@ This repo is made of 3 projects:
 
 1. [**Image Shrink**](#imageshrink): An image optimizer app to understand Electron basics.
 2. [**SysTop**](#systop): An app to monitor CPU usage.
-3. [**Bug Logger**](#buglogger): An app bug tracker for teams using React with Electron.
+3. [**Bug Logger**](#buglogger): An app bug tracker for teams using React, Electron, MongoDB and Mongoose.
 
 ## <a name="imageshrink"></a>1) Image Shrink
 
@@ -51,7 +51,7 @@ An app to monitor CPU usage.
 
 ## <a name="buglogger"></a>3) Bug Logger
 
-An app bug tracker for teams using React with Electron.
+An app bug tracker for teams using React, Electron, MongoDB and Mongoose.
 
 [See bug-logger folder](https://github.com/solygambas/electron-react-bug-logger/tree/master/bug-logger)
 
@@ -61,6 +61,15 @@ An app bug tracker for teams using React with Electron.
 
 ### Features
 
-- ...
+- customizing a React-Electron boilerplate.
+- creating the interface with React Bootstrap.
+- formatting dates with Moment.
+- displaying user-friendly alerts.
+- connecting to MongoDB Atlas with Mongoose.
+- defining a log model.
+- using IPC to communicate between Main and Renderer.
+- getting logs from database, adding and deleting logs.
+- building a custom menu item to clear all logs.
+- packaging our app with Webpack and electron-packager.
 
 Based on [Electron From Scratch: Build Desktop Apps With JavaScript](https://www.udemy.com/course/electron-from-scratch/) by Brad Traversy (2020).
