@@ -27,7 +27,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js --mode development",
     "build": "cross-env NODE_ENV=production webpack --config webpack.build.config.js --mode production",
     "package": "npm run build",
-    "postpackage": "electron-packager ./ --out=./release-builds"
+    "postpackage": "electron-packager ./ --out=./release-builds --overwrite --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
@@ -45,7 +45,7 @@
     "babili-webpack-plugin": "^0.1.2",
     "cross-env": "^7.0.2",
     "css-loader": "^3.5.3",
-    "electron": "^8.2.5",
+    "electron": "^9.0.0",
     "electron-devtools-installer": "^3.0.0",
     "electron-packager": "^14.2.1",
     "file-loader": "^6.0.0",
