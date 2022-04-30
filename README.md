@@ -1,10 +1,12 @@
 # Bug Logger App and Electron projects
 
-This repo is made of 3 projects:
+An app bug tracker for teams using React, Electron, MongoDB and Mongoose (plus 2 other Electron projects).
 
-1. [**Image Shrink**](#imageshrink): An image optimizer app to understand Electron basics.
-2. [**SysTop**](#systop): An app to monitor CPU usage.
-3. [**Bug Logger**](#buglogger): An app bug tracker for teams using React, Electron, MongoDB and Mongoose.
+| #   | Project                           | Description                                           |
+| --- | --------------------------------- | ----------------------------------------------------- |
+| 01  | [**Image Shrink**](#imageshrink) | An image optimizer app to understand Electron basics.               |
+| 02  | [**SysTop**](#systop)        | An app to monitor CPU usage.           |
+| 03  | [**Bug Logger**](#buglogger)     | An app bug tracker for teams using React, Electron, MongoDB and Mongoose.                                 |
 
 ## <a name="imageshrink"></a>1) Image Shrink
 
