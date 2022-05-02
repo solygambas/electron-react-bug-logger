@@ -2,20 +2,22 @@
 
 An app bug tracker for teams using React, Electron, MongoDB and Mongoose (plus 2 other Electron projects).
 
-| #   | Project                           | Description                                           |
-| --- | --------------------------------- | ----------------------------------------------------- |
-| 01  | [**Image Shrink**](#imageshrink) | An image optimizer app to understand Electron basics.               |
-| 02  | [**SysTop**](#systop)        | An app to monitor CPU usage.           |
-| 03  | [**Bug Logger**](#buglogger)     | An app bug tracker for teams using React, Electron, MongoDB and Mongoose.                                 |
+| #   | Project                          | Description                                                               |
+| --- | -------------------------------- | ------------------------------------------------------------------------- |
+| 01  | [**Image Shrink**](#imageshrink) | An image optimizer app to understand Electron basics.                     |
+| 02  | [**SysTop**](#systop)            | An app to monitor CPU usage.                                              |
+| 03  | [**Bug Logger**](#buglogger)     | An app bug tracker for teams using React, Electron, MongoDB and Mongoose. |
 
 ## <a name="imageshrink"></a>1) Image Shrink
 
 An image optimizer app to understand Electron basics.
 
-[See image-shrink folder](https://github.com/solygambas/electron-react-bug-logger/tree/master/image-shrink)
+[See image-shrink folder](image-shrink)
 
 <p align="center">
-    <img src="image-shrink/screenshot.png">
+    <a href="image-shrink">
+        <img src="image-shrink/screenshot.png">
+    </a>
 </p>
 
 ### Features
@@ -34,10 +36,12 @@ An image optimizer app to understand Electron basics.
 
 An app to monitor CPU usage.
 
-[See systop folder](https://github.com/solygambas/electron-react-bug-logger/tree/master/systop)
+[See systop folder](systop)
 
 <p align="center">
-    <img src="systop/screenshot.png">
+    <a href="systop">
+        <img src="systop/screenshot.png">
+    </a>
 </p>
 
 ### Features
@@ -55,10 +59,12 @@ An app to monitor CPU usage.
 
 An app bug tracker for teams using React, Electron, MongoDB and Mongoose.
 
-[See bug-logger folder](https://github.com/solygambas/electron-react-bug-logger/tree/master/bug-logger)
+[See bug-logger folder](bug-logger)
 
 <p align="center">
-    <img src="bug-logger/screenshot.png">
+    <a href="bug-logger">
+        <img src="bug-logger/screenshot.png">
+    </a>
 </p>
 
 ### Features
